@@ -11,14 +11,14 @@ export class CardPalyerComponent implements OnInit {
   @Input() mode: 'small' | 'big' = 'small';
   @Input() track: TrackModel = { _id: 0, name: '', album: '', url: '', cover: '' };
 
-  constructor(private multimediaService: MultimediaService) { }
+  constructor(private _multimediaService: MultimediaService) { }
 
   ngOnInit(): void {
 
   }
 
   sendPlay(track: TrackModel): void {
-    this.multimediaService.callback.emit(track)
+    this._multimediaService._trackInfo$.next(track)
   }
 
 }

@@ -127,6 +127,22 @@
                 "end": 333
             },
             "url": "http://localhost:3000/track-7.mp3"
+        },
+        {
+            "_id": 9,
+            "name": "Que precio tiene el cielo",
+            "album": "Sigo siendo yo",
+            "cover": "https://img.youtube.com/vi/BzUWrRcAUew/0.jpg",
+            "artist": {
+                "name": "Marc Anthony",
+                "nickname": "Marc Anthony",
+                "nationality": "US"
+            },
+            "duration": {
+                "start": 0,
+                "end": 333
+            },
+            "url": "http://localhost:3000//track-8.mp3"
         }
     ]
 }
